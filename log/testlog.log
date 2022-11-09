@@ -1,0 +1,130 @@
+2022-10-03 13:23:19,775 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-03 13:23:19,980 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-03 13:23:20,081 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-03 13:23:20,158 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-04 14:36:28,353 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-04 14:41:48,928 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-04 14:45:53,144 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-04 14:47:58,472 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-04 17:02:33,306 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-04 17:02:33,504 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-04 17:02:33,607 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-04 17:02:33,684 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-07 10:31:58,799 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-07 10:31:58,907 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-07 10:31:58,971 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-07 10:31:59,021 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-07 18:47:48,187 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-07 18:47:48,385 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-07 18:47:48,492 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-07 18:47:48,568 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-07 19:14:02,786 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-07 19:14:02,990 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-07 19:14:03,091 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-07 19:14:03,170 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-07 19:16:42,218 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-07 19:16:42,408 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-07 19:16:42,514 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-07 19:16:42,598 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-07 19:19:18,495 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-07 19:19:18,665 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-07 19:19:18,755 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-07 19:19:18,829 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-07 19:24:58,976 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-07 19:24:59,139 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-07 19:24:59,272 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-07 19:24:59,359 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-13 16:30:06,487 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-13 16:30:06,689 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-13 16:30:06,800 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-13 16:30:06,878 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-13 16:52:15,007 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-13 16:52:15,255 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-13 16:52:15,392 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-13 16:52:19,173 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-13 16:52:26,445 - TC_LoginTest_001.class -INFO - Login Passed
+2022-10-13 16:53:08,550 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-13 16:53:08,790 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-13 16:53:08,929 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-13 16:53:11,786 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-13 16:53:18,363 - TC_LoginTest_001.class -INFO - Login Passed
+2022-10-13 17:18:18,957 - TC_LoginTest_001.class -INFO - User provided
+2022-10-13 17:18:19,123 - TC_LoginTest_001.class -INFO - Password provided
+2022-10-13 17:18:21,953 - TC_LoginTest_001.class -INFO - Login in Clicked
+2022-10-13 17:18:26,832 - TC_LoginTest_001.class -INFO - User provided
+2022-10-13 17:18:26,942 - TC_LoginTest_001.class -INFO - Password provided
+2022-10-13 17:18:27,571 - TC_LoginTest_001.class -INFO - Login in Clicked
+2022-10-13 17:18:31,058 - TC_LoginTest_001.class -INFO - User provided
+2022-10-13 17:18:31,194 - TC_LoginTest_001.class -INFO - Password provided
+2022-10-13 17:18:31,710 - TC_LoginTest_001.class -INFO - Login in Clicked
+2022-10-13 17:18:35,117 - TC_LoginTest_001.class -INFO - User provided
+2022-10-13 17:18:35,266 - TC_LoginTest_001.class -INFO - Password provided
+2022-10-13 17:18:35,710 - TC_LoginTest_001.class -INFO - Login in Clicked
+2022-10-13 17:19:15,171 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-13 17:19:15,428 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-13 17:19:15,583 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-13 17:19:17,790 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-13 17:19:24,524 - TC_LoginTest_001.class -INFO - Login Passed
+2022-10-13 17:19:30,635 - TC_LoginTest_001.class -INFO - User provided
+2022-10-13 17:19:30,779 - TC_LoginTest_001.class -INFO - Password provided
+2022-10-13 17:19:33,877 - TC_LoginTest_001.class -INFO - Login in Clicked
+2022-10-13 17:19:38,332 - TC_LoginTest_001.class -INFO - User provided
+2022-10-13 17:19:38,446 - TC_LoginTest_001.class -INFO - Password provided
+2022-10-13 17:19:38,865 - TC_LoginTest_001.class -INFO - Login in Clicked
+2022-10-13 17:19:41,945 - TC_LoginTest_001.class -INFO - User provided
+2022-10-13 17:19:42,035 - TC_LoginTest_001.class -INFO - Password provided
+2022-10-13 17:19:42,424 - TC_LoginTest_001.class -INFO - Login in Clicked
+2022-10-13 17:19:45,507 - TC_LoginTest_001.class -INFO - User provided
+2022-10-13 17:19:45,634 - TC_LoginTest_001.class -INFO - Password provided
+2022-10-13 17:19:46,211 - TC_LoginTest_001.class -INFO - Login in Clicked
+2022-10-14 12:09:23,889 - TC_LoginTest_001.class -INFO - User name is provided
+2022-10-14 12:09:24,036 - TC_LoginTest_001.class -INFO - password is provided
+2022-10-14 12:09:27,169 - TC_LoginTest_001.class -INFO - providing customer details....
+2022-10-14 12:12:31,208 - TC_LoginTest_001.class -INFO - User name is provided
+2022-10-14 12:12:31,354 - TC_LoginTest_001.class -INFO - password is provided
+2022-10-14 12:12:33,932 - TC_LoginTest_001.class -INFO - providing customer details....
+2022-10-14 12:25:48,778 - TC_LoginTest_001.class -INFO - User name is provided
+2022-10-14 12:25:48,928 - TC_LoginTest_001.class -INFO - password is provided
+2022-10-14 12:25:51,510 - TC_LoginTest_001.class -INFO - providing customer details....
+2022-10-14 12:25:57,217 - TC_LoginTest_001.class -INFO - validation started....
+2022-10-14 12:25:57,553 - TC_LoginTest_001.class -INFO - test case passed....
+2022-10-14 12:27:43,750 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-10-14 12:27:44,002 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-10-14 12:27:44,146 - TC_LoginTest_001.class -INFO - Password Provided
+2022-10-14 12:27:48,163 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-10-14 12:27:54,977 - TC_LoginTest_001.class -INFO - Login Passed
+2022-10-14 12:28:00,021 - TC_LoginTest_001.class -INFO - User name is provided
+2022-10-14 12:28:00,170 - TC_LoginTest_001.class -INFO - password is provided
+2022-10-14 12:28:06,669 - TC_LoginTest_001.class -INFO - providing customer details....
+2022-10-14 12:28:20,821 - TC_LoginTest_001.class -INFO - validation started....
+2022-10-14 12:28:20,983 - TC_LoginTest_001.class -INFO - test case passed....
+2022-11-08 11:02:14,556 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-11-08 11:02:14,813 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-11-08 11:02:14,970 - TC_LoginTest_001.class -INFO - Password Provided
+2022-11-08 11:02:18,425 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-11-08 11:02:25,161 - TC_LoginTest_001.class -INFO - Login Passed
+2022-11-08 11:02:28,596 - TC_LoginTest_001.class -INFO - User name is provided
+2022-11-08 11:02:28,740 - TC_LoginTest_001.class -INFO - password is provided
+2022-11-08 11:02:32,953 - TC_LoginTest_001.class -INFO - providing customer details....
+2022-11-08 11:02:40,832 - TC_LoginTest_001.class -INFO - validation started....
+2022-11-08 11:02:41,074 - TC_LoginTest_001.class -INFO - test case passed....
+2022-11-08 17:43:51,542 - TC_LoginTest_001.class -INFO - URL is Opened
+2022-11-08 17:43:51,744 - TC_LoginTest_001.class -INFO - UserName Provided
+2022-11-08 17:43:51,880 - TC_LoginTest_001.class -INFO - Password Provided
+2022-11-08 17:43:54,807 - TC_LoginTest_001.class -INFO - Login is Clicked
+2022-11-08 17:44:01,634 - TC_LoginTest_001.class -INFO - Login Passed
+2022-11-08 17:44:05,186 - TC_LoginTest_001.class -INFO - User name is provided
+2022-11-08 17:44:05,326 - TC_LoginTest_001.class -INFO - password is provided
+2022-11-08 17:44:09,327 - TC_LoginTest_001.class -INFO - providing customer details....
+2022-11-08 17:44:09,443 - TC_LoginTest_001.class -INFO - clicked on customermenu....
+2022-11-08 17:44:12,563 - TC_LoginTest_001.class -INFO - Clicked on Addnew....
+2022-11-08 17:44:12,706 - TC_LoginTest_001.class -INFO - providing email....
+2022-11-08 17:44:12,809 - TC_LoginTest_001.class -INFO - providing Password....
+2022-11-08 17:44:12,902 - TC_LoginTest_001.class -INFO - providing First name....
+2022-11-08 17:44:12,991 - TC_LoginTest_001.class -INFO - providing Last name....
+2022-11-08 17:44:13,064 - TC_LoginTest_001.class -INFO - Clicked on gender....
+2022-11-08 17:44:13,157 - TC_LoginTest_001.class -INFO - providing Date of birth....
+2022-11-08 17:44:13,248 - TC_LoginTest_001.class -INFO - providing company name....
+2022-11-08 17:44:13,444 - TC_LoginTest_001.class -INFO - providing customer roles....
+2022-11-08 17:44:15,132 - TC_LoginTest_001.class -INFO - validation started....
+2022-11-08 17:44:15,387 - TC_LoginTest_001.class -INFO - Test case passed....
