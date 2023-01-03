@@ -67,6 +67,7 @@ public class TC_AddCustomer_003 extends BaseClass {
 		logger.info("providing customer roles....");
 				
 		addcust.setManagerOfVendor("Vendor 2");  // Selection of Vendors
+		logger.info("providing Vendor information....");
 		
 		addcust.setAdminContent("This is for testing.........");
 		addcust.clickOnSave();
