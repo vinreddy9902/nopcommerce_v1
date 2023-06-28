@@ -20,45 +20,45 @@ public class TC_AddCustomer_003 extends BaseClass {
 		
 		LoginPage lp=new LoginPage(driver);
 		lp.setUserName(username);
-		logger.info("User name is provided");
+		logger.info("User name is provided"); // logger message
 		
 		lp.setPassword(password);
-		logger.info("password is provided");
+		logger.info("password is provided"); // logger message
 		
 		lp.clickLogin();
 		
-		logger.info("providing customer details....");
+		logger.info("providing customer details...."); // logger message
 		
 		AddcustomerPage addcust=new AddcustomerPage(driver);
 		
 		addcust.clickOnCustomersMenu();
-		logger.info("clicked on customermenu....");
+		logger.info("clicked on customermenu...."); // logger message
 		addcust.clickOnCustomersMenuItem();
 		
 		addcust.clickOnAddnew();
-		logger.info("Clicked on Addnew....");
+		logger.info("Clicked on Addnew...."); // logger message
 		
 		String email = randomestring() + "@gmail.com";
 		addcust.setEmail(email);
-		logger.info("providing email....");
+		logger.info("providing email...."); // logger message
 				
 		addcust.setPassword("test123");
-		logger.info("providing Password....");
+		logger.info("providing Password...."); // logger message
 		
 
 		addcust.setFirstName("Vinod");
-		logger.info("providing First name....");
+		logger.info("providing First name...."); // logger message
 		
 		addcust.setLastName("Reddy");
-		logger.info("providing Last name....");
+		logger.info("providing Last name...."); // logger message
 		
 		addcust.setGender("Male");
-		logger.info("Clicked on gender....");
+		logger.info("Clicked on gender...."); // logger message
 		
-		addcust.setDob("7/05/1985"); // Format: D/MM/YYY
-		logger.info("providing Date of birth....");
+		addcust.setDob("7/05/1985"); // Format : DD/MM/YYYY
+		logger.info("providing Date of birth...."); // logger message
 		addcust.setCompanyName("busyQA");
-		logger.info("providing company name....");
+		logger.info("providing company name...."); // logger message
 		
 		//Registered - default
 		//The customer cannot be in both 'Guests' and 'Registered' customer roles
@@ -66,13 +66,13 @@ public class TC_AddCustomer_003 extends BaseClass {
 		addcust.setCustomerRoles("Guest");
 		logger.info("providing customer roles....");
 				
-		addcust.setManagerOfVendor("Vendor 2");  // Selection of Vendors
+		addcust.setManagerOfVendor("Vendor 2");  // Selection of Vendors 
 		logger.info("providing Vendor information....");
 		
 		addcust.setAdminContent("This is for testing.........");
 		addcust.clickOnSave();
 		
-		logger.info("validation started....");
+		logger.info("validation started...."); // logger message
 		
 		//String message=driver.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible']")).getText();
 		
@@ -81,12 +81,12 @@ public class TC_AddCustomer_003 extends BaseClass {
 		
 		if(msg.contains("The new customer has been added successfully"))
 		{
-			Assert.assertTrue(true);
-			logger.info("Test case passed....");
+			Assert.assertTrue(true) ;
+			logger.info("Test case passed...."); // logger message
 		}
 		else
 		{
-			captureScreen(driver,"addNewCustomer");
+			captureScreen(driver,"addNewCustomer"); // logger message
 			Assert.assertTrue(false);
 		}
 				

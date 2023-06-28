@@ -1,6 +1,7 @@
 package com.nopcommerce.utilities;
 
 import java.io.FileInputStream;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -24,7 +25,7 @@ public class XLUtils
 		int rowcount=ws.getLastRowNum();
 		wb.close();
 		fi.close();
-		return rowcount;		
+		return rowcount;		// This will return row count.
 	}
 	
 	
@@ -37,13 +38,13 @@ public class XLUtils
 		int cellcount=row.getLastCellNum();
 		wb.close();
 		fi.close();
-		return cellcount;
+		return cellcount;   // This will return cell count.
 	}
 	
 	public static String getCellData(String xlfile,String xlsheet,int rownum,int colnum) throws IOException
 	{
-		fi=new FileInputStream(xlfile);
-		wb=new XSSFWorkbook(fi);
+		fi=new FileInputStream(xlfile);  
+		wb=new XSSFWorkbook(fi);  
 		ws=wb.getSheet(xlsheet);
 		row=ws.getRow(rownum);
 		cell=row.getCell(colnum);

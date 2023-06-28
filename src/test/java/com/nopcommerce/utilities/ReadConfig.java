@@ -11,12 +11,12 @@ public class ReadConfig {
 	
 	public ReadConfig()
 	{
-		File src=new File("./Configration/config.properties"); // After identifying config properties file will store it in src 
+		File src=new File("./Configration/config.properties"); // After identifying configuration properties file it will be stored in folder(src) 
 		
 		try {
-			FileInputStream fis=new FileInputStream(src); // This will call our saved file src
+			FileInputStream fis=new FileInputStream(src); // This will call our saved file (src)
 			pro=new Properties();
-			pro.load(fis);  // it will load config properties file in class
+			pro.load(fis);  // it will load configuration properties file in class
 		}
 		catch(Exception e){
 			

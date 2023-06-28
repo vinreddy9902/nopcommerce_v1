@@ -22,7 +22,7 @@ public class Listeners extends TestListenerAdapter{
 	
 	public void onStart(ITestContext tr)
 	{
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/myReport.html");//specify location of the report
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/myReport.html"); //specify the location of report. 
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
 		
 		extent=new ExtentReports();
@@ -36,9 +36,9 @@ public class Listeners extends TestListenerAdapter{
 		extent.setSystemInfo("os","Windows");
 		
 		
-		htmlReporter.config().setDocumentTitle("Automation Report"); // Tile of report
-		htmlReporter.config().setReportName("Functional Test Report"); // name of the report
-		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //location of the chart
+		htmlReporter.config().setDocumentTitle("Automation Report"); // Title of the report
+		htmlReporter.config().setReportName("Functional Test Report"); // Name of the report
+		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //Location of the chart
 		htmlReporter.config().setTheme(Theme.DARK);
 	}
 	
@@ -52,14 +52,14 @@ public class Listeners extends TestListenerAdapter{
 	public void onTestFailure(ITestResult tr)
 	{
 		logger=extent.createTest(tr.getName()); // create new entry in the report
-		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
+		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with RED color highlighted
 	
 	}
 	
 	public void onTestSkipped(ITestResult tr)
 	{
 		logger=extent.createTest(tr.getName()); // create new entry in the report
-		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE)); // send the passed information to the report with GREEN color highlighted
+		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE)); // send the passed information to the report with ORANGE color highlighted
 	
 	}
 

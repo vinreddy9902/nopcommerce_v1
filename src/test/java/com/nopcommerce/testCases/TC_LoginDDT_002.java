@@ -21,13 +21,13 @@ public class TC_LoginDDT_002 extends BaseClass{
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(user);
-		logger.info("User provided"); //logger message
+		logger.info("User provided"); // logger message
 		
 		lp.setPassword(pwd);
-		logger.info("Password provided");//logger message
+		logger.info("Password provided"); // logger message
 		
 		lp.clickLogin();
-		logger.info("Login in Clicked");//logger message
+		logger.info("Login in Clicked"); // logger message
 		
 		Thread.sleep(2000);
 		
@@ -39,7 +39,7 @@ public class TC_LoginDDT_002 extends BaseClass{
 		} else {
 			
 			Assert.assertTrue(false);
-			logger.info("Login Failed");//logger message
+			logger.info("Login Failed"); // logger message
 			
 		}
 		

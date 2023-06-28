@@ -1,6 +1,7 @@
 package com.nopcommerce.utilities;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -27,7 +28,7 @@ public class Reporting extends TestListenerAdapter{
 	
 	public void onStart(ITestContext testContext)
 	{
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); // Time stamp
 		String repName="Test-Report-"+timeStamp+".html";
 		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/"+repName);//specify location of the report
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
@@ -41,15 +42,15 @@ public class Reporting extends TestListenerAdapter{
 		extent.setSystemInfo("os","windows");
 		extent.setSystemInfo("browser","chrome");
 		
-		htmlReporter.config().setDocumentTitle("nopCommerce Test Project"); // Title of report
-		htmlReporter.config().setReportName("Functional Test Report"); // name of the report
-		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //location of the chart
+		htmlReporter.config().setDocumentTitle("nopCommerce Test Project"); // Title of the report
+		htmlReporter.config().setReportName("Functional Test Report"); // Name of the report
+		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); // Location of the chart
 		htmlReporter.config().setTheme(Theme.DARK);
 	}
 	
 	public void onTestSuccess(ITestResult tr)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in the report
+		logger=extent.createTest(tr.getName()); // create new entry in report
 		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
 	}
 	
@@ -79,7 +80,7 @@ public class Reporting extends TestListenerAdapter{
 	
 	public void onTestSkipped(ITestResult tr)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in the report
+		logger=extent.createTest(tr.getName()); // create new entry in the report.
 		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE)); // send the skipped information to the report with ORANGE color highlighted
 	}
 	
